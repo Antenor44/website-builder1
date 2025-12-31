@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.builder {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+input, textarea, button {
+    margin: 5px 0;
+    padding: 8px;
+}
+
+iframe {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #000;
+    background: white;
+}
